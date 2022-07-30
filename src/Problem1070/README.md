@@ -1,4 +1,4 @@
-﻿# Markdown File
+# Problem 1070 
 Read an integer value X. Then display the 6 consecutive odd values ​​starting from X, one value per line, including the X if applicable.
 
 Input
