@@ -1,4 +1,4 @@
-# Problem 1097 
+# Problem 1097 - IJ 3 Sequence
 You must make a program that displays the sequence as shown in the example below.
 
 <b>Input</b>

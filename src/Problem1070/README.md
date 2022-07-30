@@ -1,4 +1,4 @@
-# Problem 1070 
+# Problem 1070 - Six Odd Numbers
 Read an integer value X. Then display the 6 consecutive odd values ​​starting from X, one value per line, including the X if applicable.
 
 <b>Input</b>
