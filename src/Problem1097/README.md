@@ -28,5 +28,24 @@ I=9 J=13
 
 ## Answer 
 ```cs
+using System; 
 
+class URI 
+{
+    private static int _valueNumber = 6;
+    private static int _sumNumber = 2;
+    private static int _maxNumber = 9;
+
+    static void Main() 
+    { 
+        for (int i = 1; i <= _maxNumber; i += _sumNumber)            
+            PrintValues(i);  
+    }
+    
+    private static void PrintValues(int index)
+    {
+        for (int i = 0; i < 3; i++)
+            Console.WriteLine($"I={index} J={_valueNumber + index - i}");
+    }
+}
 ```
