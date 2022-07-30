@@ -9,7 +9,6 @@ Print the sequence as shown below.
 
 ## Input example
 ```bash
-8
 ```
 
 ## Output example
