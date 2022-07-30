@@ -2,9 +2,11 @@
 You must make a program that displays the sequence as shown in the example below.
 
 <b>Input</b>
+
 There is no input in this issue.
 
 <b>Output</b>
+
 Print the sequence as shown below.
 
 ## Input example

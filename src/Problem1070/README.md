@@ -2,9 +2,11 @@
 Read an integer value X. Then display the 6 consecutive odd values ​​starting from X, one value per line, including the X if applicable.
 
 <b>Input</b>
+
 The input will be a positive integer value.
 
 <b>Output</b>
+
 The output will be a sequence of six odd numbers.
 
 ## Input example
