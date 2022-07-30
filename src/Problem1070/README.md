@@ -12,7 +12,7 @@ The output will be a sequence of six odd numbers.
 8
 ```
 
-##Output example
+## Output example
 ```bash
 9
 11
@@ -22,7 +22,7 @@ The output will be a sequence of six odd numbers.
 19
 ```
 
-##Resposta
+## Answer 
 ```cs
 using System;
 
