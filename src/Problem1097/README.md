@@ -1,4 +1,4 @@
-# Problem 1070 
+# Problem 1097 
 You must make a program that displays the sequence as shown in the example below.
 
 <b>Input</b>
