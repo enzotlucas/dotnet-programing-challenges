@@ -9,13 +9,15 @@ var validNumber = int.TryParse(inputValue, out int number);
 
 if(!validNumber)
 {
-    Console.WriteLine("Invalid number");
+    Console.WriteLine("Invalid number, press any key to shut down...");
+
+    Console.ReadKey();
 
     Environment.Exit(1);
 }
 
 var sum = Kata.Solution(number);
 
-Console.WriteLine($"The sum of all the numbers are: {sum}");
+Console.WriteLine($"The sum of all the numbers are: {sum}, press any key to shut down...");
 
 Console.ReadKey();
