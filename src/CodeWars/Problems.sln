@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemMultiples3Or5", "ProblemMultiples3Or5\ProblemMultiples3Or5.csproj", "{E4EBE4C4-BDB3-4FAF-81F5-5CC3927C8C01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resolved", "Resolved", "{FF418EBB-AFFE-4AF7-B243-05D44FA68176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ongoing", "Ongoing", "{C16A409B-762E-4463-A51E-90D781EA2D10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4EBE4C4-BDB3-4FAF-81F5-5CC3927C8C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EBE4C4-BDB3-4FAF-81F5-5CC3927C8C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EBE4C4-BDB3-4FAF-81F5-5CC3927C8C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EBE4C4-BDB3-4FAF-81F5-5CC3927C8C01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4EBE4C4-BDB3-4FAF-81F5-5CC3927C8C01} = {FF418EBB-AFFE-4AF7-B243-05D44FA68176}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85805569-FE24-44CF-BE05-AAE55FC133DB}
+	EndGlobalSection
+EndGlobal
