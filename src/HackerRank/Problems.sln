@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staircase", "Staircase\Stai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMaxSum", "MiniMaxSum\MiniMaxSum.csproj", "{414E05F7-8B2D-4B66-9969-17DCB97A6D4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCakeCandles", "BirthdayCakeCandles\BirthdayCakeCandles.csproj", "{181435F5-7A99-4744-9637-455841A1AA30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{414E05F7-8B2D-4B66-9969-17DCB97A6D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{414E05F7-8B2D-4B66-9969-17DCB97A6D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{414E05F7-8B2D-4B66-9969-17DCB97A6D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181435F5-7A99-4744-9637-455841A1AA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181435F5-7A99-4744-9637-455841A1AA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181435F5-7A99-4744-9637-455841A1AA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181435F5-7A99-4744-9637-455841A1AA30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{8280D21C-13AC-4BA4-A6AA-94C5D0116002} = {A7CE82B7-38D3-4BDF-BC53-F43B509AF363}
 		{F13CC394-C36F-49BE-9F76-123892D06584} = {A7CE82B7-38D3-4BDF-BC53-F43B509AF363}
 		{414E05F7-8B2D-4B66-9969-17DCB97A6D4C} = {A7CE82B7-38D3-4BDF-BC53-F43B509AF363}
+		{181435F5-7A99-4744-9637-455841A1AA30} = {E0B778E5-9C44-4BF6-9152-369782EAFB15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CC2AC1D-02B4-4D1F-A049-D035E81DD340}
