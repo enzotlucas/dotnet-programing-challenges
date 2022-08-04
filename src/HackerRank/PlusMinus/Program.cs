@@ -7,7 +7,7 @@ var inputValue = Console.ReadLine().Trim();
 var validNumber = int.TryParse(inputValue, out int n);
 
 if (!validNumber || n <= 0 || n > 100)
-    PrintErrorMessage("Invalid size of array. Press any button to shut down...", 1);
+    PrintErrorMessage("Invalid size of array (0 < n <= 100). Press any button to shut down...", 1);
 
 var arr = GetNumbersList();
 
@@ -35,7 +35,7 @@ static List<int> GetNumbersList()
         var validNumber = int.TryParse(inputNumber, out int number);
 
         if (!validNumber || number < -100 || number > 100)
-            PrintErrorMessage("Invalid number. Press any button to shut down...", 2);
+            PrintErrorMessage("Invalid number (-100 <= n <= 100). Press any button to shut down...", 2);
 
         arr.Add(number);
     }
