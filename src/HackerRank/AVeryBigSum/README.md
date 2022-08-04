@@ -27,7 +27,7 @@ Return the integer sum of the elements in the array.
 <b>
 1 <= n <= 100
 0 <= ar[i] <= 10^10
-/b>
+</b>
 
 ## Sample Input
 ```bash
@@ -64,33 +64,18 @@ class Result
 {
 
     /*
-     * Complete the 'compareTriplets' function below.
+     * Complete the 'aVeryBigSum' function below.
      *
-     * The function is expected to return an INTEGER_ARRAY.
-     * The function accepts following parameters:
-     *  1. INTEGER_ARRAY a
-     *  2. INTEGER_ARRAY b
+     * The function is expected to return a LONG_INTEGER.
+     * The function accepts LONG_INTEGER_ARRAY ar as parameter.
      */
 
     //This is the only method i've changed
-    public static List<int> compareTriplets(List<int> a, List<int> b)
+    public static long aVeryBigSum(List<long> ar)
     {
-        if (a is null || b is null | a.Count != b.Count)
-           throw new ArgumentException("Invalid lists.");
-        
-        int pointsForA = 0, pointsForB = 0;
-        
-        for (int i = 0; i < a.Count; i++)
-        {
-            if (a[i] > b[i])
-                pointsForA++;
-        
-            if (b[i] > a[i])
-                pointsForB++;
-        }
-        
-        return new List<int>() { pointsForA, pointsForB };
-    }       
+        return ar.Sum();
+    }
+
 }
 
 class Solution
@@ -99,16 +84,17 @@ class Solution
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        List<int> a = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(aTemp => Convert.ToInt32(aTemp)).ToList();
+        int arCount = Convert.ToInt32(Console.ReadLine().Trim());
 
-        List<int> b = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(bTemp => Convert.ToInt32(bTemp)).ToList();
+        List<long> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt64(arTemp)).ToList();
 
-        List<int> result = Result.compareTriplets(a, b);
+        long result = Result.aVeryBigSum(ar);
 
-        textWriter.WriteLine(String.Join(" ", result));
+        textWriter.WriteLine(result);
 
         textWriter.Flush();
         textWriter.Close();
     }
 }
+
 ```
