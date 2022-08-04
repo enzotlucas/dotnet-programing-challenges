@@ -1,6 +1,6 @@
 ﻿using Staircase;
 
-Console.WriteLine("Input a single integer, n, denoting the size of the staircase.");
+Console.WriteLine("Staircase Problem \nInput a single integer, n, denoting the size of the staircase.");
 
 var inputValue = Console.ReadLine().Trim();
 
